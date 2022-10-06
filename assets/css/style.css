@@ -1,5 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Lato&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    
+    background-color: #666060;
+}
+
+/* Header */
+
+#logo {
+    float: left;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: #00FF52;
+    font-size: 250%;
+    letter-spacing: 2px; 
+    margin-left: 1%;
+    filter: drop-shadow(0px 2px 2px #FAEA10);
+
+}
+
+#logo, #menu {
+    line-height: 50px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 35px;
+    font-size: 120%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #00FF52;
+    letter-spacing: 2px;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #00FF52;
+}
+
+.active {
+    border-bottom: 1px solid #00FF52;
 }
