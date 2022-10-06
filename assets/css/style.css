@@ -45,3 +45,17 @@ body {
 .active {
     border-bottom: 1px solid #FDFF00;
 }
+
+/* Index image */
+
+#pic-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-pic{
+    height: 600px;
+    width: 100%;
+    background: url('../images/index-picture.jpg') no-repeat center center;
+}
