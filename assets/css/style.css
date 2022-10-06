@@ -58,4 +58,18 @@ body {
     height: 600px;
     width: 100%;
     background: url('../images/index-picture.jpg') no-repeat center center;
+
+    /* animates effect on loading page */
+    animation-name: index-pic;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes index-pic {
+    from {
+        transform: matrix(1, 2, 3, 4, 5, 6);
+    }
+    to {
+        transform: matrix(1);
+    }
 }
