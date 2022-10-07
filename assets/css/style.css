@@ -10,14 +10,23 @@ body {
     background-color: #666060;
 }
 
-/* Header */
+/* h1,h2*/
 
-#logo {
-    float: left;
+h1, h2 {
     font-family: 'Gemunu Libre', sans-serif;
     color: #FDFF00;
     font-size: 250%;
     letter-spacing: 2px; 
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header */
+
+#logo {
+    float: left;
     margin-left: 1%;
     filter: drop-shadow(8px 8px 4px #bbbb18);
 }
