@@ -10,7 +10,7 @@ body {
     background-color: #666060;
 }
 
-/* h1,h2*/
+/* h1, h2, hr*/
 
 h1, h2 {
     font-family: 'Gemunu Libre', sans-serif;
@@ -22,6 +22,12 @@ h1, h2 {
 p {
     font-family: 'Lato', sans-serif;
     font-size: 120%;
+}
+
+hr {
+    border: 1px solid #FDFF00;
+    width: 80%;
+    margin: 0px 10%;
 }
 
 /* Header */
@@ -88,42 +94,62 @@ p {
 
 /* About */
 
-.about {
-    height: 600px;
-    width: 100%;
-}
-
-#about-heading {
-    text-align: center;
-    padding-top: 30px;
-}
-
-#left-about {
-    padding: 30px;
-    width: 33%;
-    float: left;
+.about-header {
     text-align: center;
 }
 
-#right-about {
-    padding: 30px;
-    width: 33%;
-    float: right;
-    text-align: center;
-}
+.container {
+    position : relative;
+    width : 100%;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    flex-wrap: wrap;
+    padding : 30px;  
+  }
 
-#center-about {
-    padding-top: 30px;
-    width: 33%;
-    margin: 0 auto;
-}
+  .container .card {
+    position: relative;
+    max-width : 300px;
+    height : 215px;  
+    background-color : #666060;
+    margin : 30px 10px;
+    padding : 20px 15px;
+    border: 1px solid #FDFF00;
+    display : flex;
+    flex-direction : column;
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+  }
+  .container .card:hover {
+    height : 320px;    
+  }
 
-#center-about h2 {
-    text-align: center;
-}
+  .container .card .icon {
+    position : relative;
+    width : 260px;
+    height : 260px;
+    top : -5%;
+    left: 12%;
+    z-index : 1;
+  }
 
-hr {
-    border-top: 2px solid #FDFF00;
-    width: 60%;
-    margin: 5px 20% 0 20%;
-}
+  .container .card .content {
+    position : relative;
+    top : -110px;
+    padding : 10px 15px;
+    color : #111;
+    text-align : center;
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+      
+  }
+
+  .container .card:hover .content {
+     margin-top : 30px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.2s;
+    
+  }
