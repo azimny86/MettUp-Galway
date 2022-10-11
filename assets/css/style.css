@@ -21,6 +21,7 @@ h1, h2 {
 
 p {
     font-family: 'Lato', sans-serif;
+    font-size: 120%;
 }
 
 /* Header */
@@ -69,6 +70,7 @@ p {
     background: url('../images/index-picture.jpg') no-repeat center center;
 
     /* animates effect on loading page */
+    /*
     animation-name: index-pic;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -81,4 +83,62 @@ p {
     to {
         transform: matrix(1);
     }
+}
+*/}
+/* Ethos */
+
+#ethos {
+    width: 100%;
+    text-align: center;
+}
+
+#ethos h1 {
+    padding-top: 1%;
+}
+
+#ethos p {
+    width: 80%;
+    padding: 1% 10%;
+}
+
+/* About */
+
+.about {
+    height: 600px;
+    width: 100%;
+}
+
+#about-heading {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#left-about {
+    padding: 30px;
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+#right-about {
+    padding: 30px;
+    width: 33%;
+    float: right;
+    text-align: center;
+}
+
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+}
+
+#center-about h2 {
+    text-align: center;
+}
+
+hr {
+    border-top: 2px solid #FDFF00;
+    width: 60%;
+    margin: 5px 20% 0 20%;
 }
