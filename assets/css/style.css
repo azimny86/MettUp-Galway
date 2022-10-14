@@ -196,3 +196,34 @@ hr {
     font-size: 250%;
     letter-spacing: 2px;
 }
+
+/* Footer */
+
+footer {
+    height: 100px;
+    margin-top: 6%
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 300%;
+    color: #FDFF00;
+    margin: 2%;
+}
+
+.social-media i:hover {
+    border-bottom: 2px solid #FDFF00;
+    opacity: 0.5 ;
+}
+
+.copyright {
+    color: #bbbb18;
+    text-align: center;
+}
