@@ -155,6 +155,10 @@ hr {
     
   }
 
+  .card p {
+    font-size: 150%;
+    color: #111;
+  }
 /* Meetings */
 
 #meetings {
