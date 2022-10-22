@@ -32,6 +32,10 @@ hr {
 
 /* Header */
 
+header {
+    border-bottom: 2px solid #FDFF00;
+}
+
 #logo {
     float: left;
     margin-left: 1%;
@@ -208,7 +212,8 @@ hr {
 
 footer {
     height: 100px;
-    margin-top: 6%
+    margin-top: 7%;
+    border-top: 2px solid #FDFF00;
 }
 
 .social-media {
