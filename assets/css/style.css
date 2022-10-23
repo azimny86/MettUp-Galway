@@ -32,7 +32,10 @@ hr {
 
 /* Header */
 
-
+header {
+    height: 65px;
+    border-bottom: 2px solid #FDFF00;
+}
 #logo {
     float: left;
     margin-left: 1%;
