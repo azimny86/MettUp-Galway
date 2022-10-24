@@ -262,3 +262,53 @@ footer {
     vertical-align: bottom;
     border: 1px solid #FDFF00
   }
+
+/* Contact */
+
+.form-header {
+    margin: 1% 8%;
+}
+
+.form-content {
+    list-style: none;
+    width: 80%;
+    margin: 1% 10%;
+    border: 2mm ridge #FDFF00;
+}
+
+.form-content ul {
+    padding: 0 35%;
+    font-size: 150%;
+    color: #FDFF00;
+}
+
+.form-content ul input,
+.form-content ul textarea {
+    background: transparent;
+    border: 1px solid #111;
+    font-size: 24px;
+    color: #FDFF00;
+    outline: none;
+    border-radius: 3%;
+}
+
+.form-content ul textarea {
+    padding: 1%;
+}
+
+.button {
+  background-color: #FDFF00;
+  padding: 1%;
+  margin: 1% 47%;
+  border: 5px solid #111;
+  border-radius: 35%;
+  cursor: pointer;
+}
+
+.button:hover {
+    background-color: #111;
+    color: #FDFF00;
+    border: 5px solid #FDFF00;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
