@@ -312,3 +312,17 @@ footer {
     text-transform: uppercase;
     transition: all 0.3s;
 }
+
+/* Thank You */
+
+#thank {
+    text-align: center;
+    font-size: 150%;
+}
+
+#thank h2 {
+    padding: 1% 0;
+}
+#thank p {
+    padding: 3% 0;
+}
