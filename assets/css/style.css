@@ -457,26 +457,60 @@ footer {
 /* Media */
 
 /* Small devices */
+@media (min-width: 320px) {
+  #menu {
+    display: none;
+  }
+  #logo {
+    float: right;
+  }
+}
 @media (min-width: 576px) { 
-  
+  #menu {
+    display: none;
+  }
+  #logo {
+    float: right;
+  }
  }
 
 /* Medium devices */
 @media (min-width: 768px) { 
-  
+  #menuToggle {
+    display: none;
+  }
+  #logo {
+    float: right;
+  }
  }
 
 /* Large devices */
 @media (min-width: 992px) { 
-  
+  #menu {
+    display: contents;
+  }
+  #logo {
+    float: left;
+  }
+
  }
 
 /* X-Large devices */
 @media (min-width: 1200px) { 
-  
+  #menu {
+    display: contents;
+  }
+  #logo {
+    float: left;
+  }
  }
 
 /* XX-Large devices */
 @media (min-width: 1400px) { 
-  
+  #menu {
+    display: contents;
+  }
+  #logo {
+    float: left;
+  }
  }
