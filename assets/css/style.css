@@ -453,6 +453,9 @@ footer {
 
 /* Small devices */
 @media (min-width: 320px) {
+  h2 {
+    font-size: 200%;
+  }
   #menu {
     display: none;
   }
@@ -460,6 +463,16 @@ footer {
     float: right;
     font-size: 200%;
   }
+  #ethos p {
+    font-size: 150%;
+  }
+  .container {
+    display: contents;
+  }
+  .container .card .icon {
+    width: 82%;
+  }
+
 }
 @media (min-width: 576px) { 
   #menu {
@@ -469,6 +482,13 @@ footer {
     float: right;
     font-size: 200%;
   }
+  .container {
+    display: contents;
+  }
+  .container .card {
+    margin: 2% 16%;
+  }
+
  }
 
 /* Medium devices */
