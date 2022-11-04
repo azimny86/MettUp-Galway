@@ -346,11 +346,8 @@ footer {
 #gallery {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 5%;
-    padding-left: 5%;
+    padding: 5% 5%;
     width: 90%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
   }
 
 #gallery li {
