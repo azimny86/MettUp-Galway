@@ -461,6 +461,9 @@ footer {
   #meetings-background div {
     width: 100%;
   }
+  .social-media > li {
+    font-size: 78%;
+  }
 
 }
 @media (min-width: 576px) { 
@@ -517,6 +520,9 @@ footer {
   .card:hover {
     transform: scale(0.9, 0.9);
   }
+  .social-media > li {
+    font-size: 90%;
+}
  }
 
  
