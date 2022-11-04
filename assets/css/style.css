@@ -455,6 +455,12 @@ footer {
   .container .card .icon {
     width: 82%;
   }
+  .card:hover {
+    transform: none;
+  }
+  #meetings-background div {
+    width: 100%;
+  }
 
 }
 @media (min-width: 576px) { 
@@ -471,6 +477,12 @@ footer {
   .container .card {
     margin: 2% 16%;
   }
+  #meetings-background div {
+    width: 50%;
+  }
+  .card-list {
+    flex-direction: column;
+  }
 
  }
 
@@ -483,6 +495,12 @@ footer {
     float: right;
     font-size: 200%;
   }
+  #meetings-background div {
+    width: 50%;
+  }
+  .card:hover {
+    transform: none;
+  }
  }
 
 /* Large devices */
@@ -493,8 +511,15 @@ footer {
   #logo {
     float: left;
   }
-
+  #meetings-background div {
+    width: 25%;
+  }
+  .card:hover {
+    transform: scale(0.9, 0.9);
+  }
  }
+
+ 
 
 /* X-Large devices */
 @media (min-width: 1200px) { 
