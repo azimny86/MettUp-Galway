@@ -465,6 +465,16 @@ footer {
   #gallery li {
     height: 14vh;
   }
+  .form-header {
+    font-size: 158%;
+  }
+  .form-content ul {
+    padding: 0 3%;
+  }
+  .form-content ul input , .form-content ul textarea {
+    width: 95%;
+  }
+
 
 }
 @media (min-width: 576px) { 
