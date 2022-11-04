@@ -185,15 +185,15 @@ header {
 /* Index image */
 
 #pic-outer {
-    height: 600px;
+    height: auto;
     width: 100%;
     overflow: hidden;
 }
 
 .main-pic{
-    height: 600px;
+    height: auto;
     width: 100%;
-    background: url('../images/index-picture.jpg') no-repeat center center;
+    object-fit: cover;
 
 }
 /* Ethos */
@@ -505,12 +505,13 @@ footer {
 @media (min-width: 768px) { 
   #menuToggle {
     display: none;
+  }#menu {
+    display: contents;
   }
   #logo {
-    float: right;
-    margin-right: 1%;
-    font-size: 200%;
+    float: left;
   }
+  
   #meetings-background div {
     width: 50%;
   }
@@ -551,6 +552,9 @@ footer {
   }
   #logo {
     float: left;
+  }
+  .main-pic {
+    height: 67vh;
   }
  }
 
