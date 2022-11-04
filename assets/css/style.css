@@ -462,6 +462,9 @@ footer {
   .social-media > li {
     font-size: 78%;
   }
+  #gallery li {
+    height: 14vh;
+  }
 
 }
 @media (min-width: 576px) { 
@@ -504,6 +507,9 @@ footer {
   .card:hover {
     transform: none;
   }
+  #gallery li {
+    height: 16vh;
+  }
  }
 
 /* Large devices */
@@ -523,9 +529,10 @@ footer {
   .social-media > li {
     font-size: 90%;
 }
+#gallery li {
+  height: 20vh;
+}
  }
-
- 
 
 /* X-Large devices */
 @media (min-width: 1200px) { 
