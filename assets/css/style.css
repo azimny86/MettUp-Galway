@@ -192,9 +192,8 @@ header {
 }
 
 .main-pic{
-    height: auto;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 
 }
 /* Ethos */
@@ -337,7 +336,7 @@ footer {
 }
 
 .copyright {
-    color: #bbbb18;
+    color: #FDFF00;
     text-align: center;
 }
 
@@ -555,7 +554,7 @@ footer {
     float: left;
   }
   .main-pic {
-    height: 67vh;
+    height: 52vh;
   }
  }
 
