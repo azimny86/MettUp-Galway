@@ -7,12 +7,17 @@ The website targets people who are just starting their adventure with the IT ind
 
 Users of MettUp-Galway will be able to find information: 
 - About to MettUp-Galway
-- Ethos section
+![About](assets/images/about.png)
+- About Us section
+![About us](assets/images/about-us.png)
 - Meeting times 
+![Meetings](assets/images/meetings.png)
 - Gallery of privies events 
+![Gallery](assets/images/gallery.png)
 - Contact form
+![Contact](assets/images/contact.png)
 - Social media links
-
+![Footer](assets/images/footer.png)
 
 
 
@@ -68,10 +73,24 @@ Users of MettUp-Galway will be able to find information:
                 1. The layout of the form changes with the change of resolution.
                 2. All fields of the form are required.
                 3. After filling in all the fields, the form sends the user to the thank-you pages
+- The site was tested on various browsers such as chrome, firefox, safari and Microsoft Edge
+- Site was tested by  google lighthouse , 
+   + Index page :
+       - Desktop
+        ![Index](assets/images/index-lighthouse.png)
+       - Mobile
+        ![Index-mobile](assets/images/index-lighthouse-mobile.png)
+   + Gallery:
+       - Desktop
+        ![Gallery](assets/images/gallery-lighhouse.png)
+   + Contact:
+        - Desktop
+        ![Contact](assets/images/contact-lighthouse.png)
+       - Mobile
+        ![Contact-mobile](assets/images/contact-lighthouse-mobile.png)
 
-	- The site was tested on various browsers such as chrome, firefox, safari and Microsoft Edge
-	- Site was tested by  google lighthouse  (Adding a scoring from lighthouse) , 
-	- Existing code HTML , CSS was validated by W3C HTML and W3C CSS. [Pictures of validation report]
+
+	- Existing code HTML , CSS was validated by W3C HTML and W3C CSS. 
 
 
 
