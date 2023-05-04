@@ -22,26 +22,27 @@
     </a>
     <ul id="menu">
       <li>
-        <a href="contact.html" class="active"><i class="fa-solid fa-envelope"></i> Contact</a>
+        <a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
       </li>
       <li>
         <a href="gallery.html"><i class="fa-regular fa-image"></i> Gallery</a>
       </li>
       <li>
-        <a href="index.html"><i class="fa-sharp fa-solid fa-house-chimney"></i> Home</a>
+        <a href="index.html" class="active"><i class="fa-sharp fa-solid fa-house-chimney"></i> Home</a>
       </li>
     </ul>
+
     <!--Mobile Navbar-->
-    <div id="menuToggle">
-      <input type="checkbox" />
+    <div id="menuToggle" >
+      <input type="checkbox" aria-label="Toggle navbar for mobile"/>
       <span></span>
       <span></span>
       <span></span>
 
       <ul id="menu-mobile">
-        <a href="index.html"><li><i class="fa-sharp fa-solid fa-house-chimney"></i> Home</li></a>
-        <a href="gallery.html"><li><i class="fa-regular fa-image"></i> Gallery</li></a>
-        <a href="contact.html" class="active-mobile"><li><i class="fa-solid fa-envelope"></i> Contact</li></a>
+        <li><a href="index.html" class="active-mobile" aria-label="Index page"><i class="fa-sharp fa-solid fa-house-chimney"></i> Home</a></li>
+        <li><a href="gallery.html" aria-label="Gallery page"><i class="fa-regular fa-image" ></i> Gallery</a></li>
+        <li><a href="contact.html" aria-label="Contact page"><i class="fa-solid fa-envelope" ></i> Contact</a></li>
       </ul>
     </div>
   </header>
@@ -49,26 +50,26 @@
     <form action="thank-you.html" method="GET">
       <h2 class="form-header">Do you want to ask us a question? Do you want to know about our future meetings? Write to us : </h2>
 
-      <li class="form-content">
-        <ul >
+      <ul class="form-content">
+        <li >
           <label for="fname">First name :</label><br>
           <input type="text" name="fname" id="fname" required>
           
-        </ul>
-        <ul>
+        </li>
+        <li>
           <label for="lname">Last name :</label><br>
           <input type="text" name="lname" id="lname" required>
-        </ul>
-        <ul>
+        </li>
+        <li>
           <label for="email">Email Address  :</label><br>
           <input type="email" name="emial" id="email" required>
-        </ul>
-        <ul>
+        </li>
+        <li>
           <label for="message">Write us a message :</label><br>
           <textarea name="message" id="message" cols="30" rows="10" placeholder="Write something to us..." required></textarea>
-        </ul>
-        <button class="button" type="submit" >SEND</button>
-      </li>
+        </li>
+      </ul>
+      <button class="button" type="submit" >SEND</button>
     </form>
     <footer>
       <ul class="social-media">
