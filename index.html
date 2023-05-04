@@ -33,24 +33,24 @@
     </ul>
 
     <!--Mobile Navbar-->
-    <div id="menuToggle">
-      <input type="checkbox" />
+    <div id="menuToggle" >
+      <input type="checkbox" aria-label="Toggle navbar for mobile"/>
       <span></span>
       <span></span>
       <span></span>
 
       <ul id="menu-mobile">
-        <a href="index.html" class="active-mobile"><li><i class="fa-sharp fa-solid fa-house-chimney"></i> Home</li></a>
-        <a href="gallery.html"><li><i class="fa-regular fa-image"></i> Gallery</li></a>
-        <a href="contact.html"><li><i class="fa-solid fa-envelope"></i> Contact</li></a>
+        <li><a href="index.html" class="active-mobile" aria-label="Index page"><i class="fa-sharp fa-solid fa-house-chimney"></i> Home</a></li>
+        <li><a href="gallery.html" aria-label="Gallery page"><i class="fa-regular fa-image" ></i> Gallery</a></li>
+        <li><a href="contact.html" aria-label="Contact page"><i class="fa-solid fa-envelope" ></i> Contact</a></li>
       </ul>
     </div>
   </header>
-  <section id="pic-outer">
-    <img src="assets/images/index-photo.png" class="main-pic" alt="People at the meeting" >
-  </section>
-  <section id="ethos">
-    <h1 class="ethos-header">MettUp-Galway</h1>
+  <div id="pic-outer">
+    <img src="/assets/images/index-picture.webp" class="main-pic" alt="People at the meeting">
+  </div>
+  <div id="ethos">
+    <h2 class="ethos-header">MettUp-Galway</h2>
     <hr>
     <p>
       We organize meetings for specialists in the IT department of the city of Galway. You can come to our meeting at
@@ -63,9 +63,9 @@
       unity, represented by a space where we can grow together and grow as individuals and reflect this in our code, our
       way of working and our way of life.
     </p>
-  </section>
+  </div>
   <section>
-    <h1 class="about-header">Who are we for?</h1>
+    <h2 class="about-header">Who are we for?</h2>
     <hr>
     <div class="cards-list">
   
@@ -113,7 +113,7 @@
           </p>
         </div>
       </div>
-    
+    </div>
     
   </section>
   <section id="meetings">
